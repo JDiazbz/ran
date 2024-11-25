@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoC</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        h1 {
+text-shadow: 2px 2px rgb(195, 255, 0);
+}
+h3 {
+text-shadow: 2px 2px rgb(234, 255, 2);
+}
+body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000000; /* Background color */
+      color: #000000; /* Default font color */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Ensure footer stays at the bottom */
+            }
+            .navbar {
+                margin-bottom: 0;
+      background-color: rgb(0, 30, 255);
+      border: 0;
+      font-size: 30px !important;
+      letter-spacing: 30px;
+      opacity: 2;
+            }
+            .navbar li a, .navbar .navbar-brand {
+                color: #000000 !important;
+            transition: transform 0.2s;
+        }
+        .navbar li a:hover, .navbar .navbar-brand:hover {
+            transform: translateY(-2px);
+        }
+        .team-section {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            flex-wrap: wrap;
+            padding-bottom: 200px;
+            flex: 1;
+        }
+        .team-member {
+            border-radius: 49px;
+            padding: 20px;
+            margin: 40px;
+            box-shadow: 0 4px 8px rgb(38, 0, 255);
+            width: 200px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            color: rgb(0, 0, 0);
+            position: relative;
+        }
+        .team-member:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(203, 249, 1, 0.2);
+        }
+        .team-member:nth-child(odd) {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        .team-member:nth-child(even) {
+            background-color: rgba(153, 255, 252, 0.9);
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: rgb(0, 55, 255);
+            font-size: 25px;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+        .social-icons a:hover {
+            transform: translateY(-2px);
+            color: #128C7E;
+        }
+        footer {
+                background-color: rgb(0, 26, 255); /* Footer background color */
+                color: rgb(0, 0, 0); /* Default footer text color */
+                text-align: center;
+                padding: 30px;
+                margin-top: auto; /* Keep footer at the bottom */
+                font-size: 18px; /* Custom font size for footer text */
+                position: bottom;
+                bottom: 0;
+                width: 100%;
+            }
+    </style>
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            
+            <center><h1 class="navbar-brand">ola flaquita</h1></center>
+            
+        </div>
+    </div>
+</nav>
+<!-- Team Section -->
+<!-- Team Section -->
+<div class="team-section">
+    <div class="team-member">
+        <img src="flaquita.jpg">
+        
+        <center>
+            <h1>Flaquita</h1>
+        </center>
+        <center>
+            <h3>La Mireli ^</h3>
+        </center>
+        <div class="social-icons">  
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>😁</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
